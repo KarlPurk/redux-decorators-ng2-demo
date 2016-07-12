@@ -4,8 +4,8 @@ import { Slice, Reducer, Store } from 'redux-decorators';
 @Slice('count', 0)
 @Reducer('add', 'remove')
 class ActionReducers {
-    add(count) { return count + 1}
-    remove(count) { return count - 1}
+    add(count) { return count + 1 }
+    remove(count) { return count - 1 }
 }
 
 @Component({
@@ -20,6 +20,4 @@ class ActionReducers {
 `
 })
 @Store('count')
-export class AppComponent {
-  title = 'app works!';
-}
+export class AppComponent {}
