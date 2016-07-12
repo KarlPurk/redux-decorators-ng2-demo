@@ -7,10 +7,18 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+    'redux': 'vendor/redux/dist/redux.js',
+    'redux-decorators': 'vendor/redux-decorators/dist/redux-decorators.js'
 };
 
 /** User packages configuration. */
 const packages: any = {
+    'redux': {
+        format: 'cjs'
+    },
+    'redux-decorators': {
+        format: 'cjs'
+    }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
