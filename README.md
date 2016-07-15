@@ -25,6 +25,12 @@ Start the server:
 ng serve
 ```
 
+Test the application:
+
+```
+open http://localhost:4200
+```
+
 Investigate the code:
 
 ```
